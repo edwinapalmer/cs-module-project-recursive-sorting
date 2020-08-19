@@ -24,22 +24,6 @@ def binary_search(arr, target, start, end):
     # else:
     #     return -1
 
-        # middle = start + end // 2
-        # if len(arr) == 0:
-        #     return -1
-
-        # if arr[middle] == target:
-        #     return middle
-
-        # else:
-        #     if target > arr[middle]:
-        #         low = middle -1
-
-        # elif target < arr[middle]:
-        #     high = middle + 1
-
-        # return binary_search_recursive(arr, target, high, low)
-
 
 # STRETCH: implement an order-agnostic binary search
 # This version of binary search should correctly find 
